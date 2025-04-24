@@ -25,7 +25,6 @@ int main(void){
 
 		switch(op){ 
 			case 1:
-
 				if (numprim(n)){ 
 					printf("Su numero es primo \n ");
 
@@ -40,10 +39,11 @@ int main(void){
 				break; 
 
 			case 3:
-				printf("La cantidad de nuemeros pares e impares son  : %d \n   ", parimpar(n));  
+				parimpar(n);  
 				break; 
 			case 4: 
-				printf("Los numeros  multiplos de 3 desde 1 hasta el numero ingresado  %d  son:  \n   ", multipos(n));
+				printf("Los numeros  multiplos de 3 desde 1 hasta el numero ingresado  %d  son:  \n   ",n);
+				multiplos(n);
 	
 
 			default: 

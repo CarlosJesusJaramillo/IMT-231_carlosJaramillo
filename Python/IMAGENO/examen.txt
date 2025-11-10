@@ -1,0 +1,83 @@
+chat quiero que me des el codigo para hacer todo esto, tengo un documento que se llama: Evaluacion_U2_Jaramillo.py,una carpeta llamada: opexamen, y tiene diferentes documentos como: bordes.py  carga.py  filtros.py  histogramas.py  __init__.py  mascaras.py,Data                                             'Imagenologia Imagenes Medicas.ipynb'   MASCARASYFILTROSPARTIYII.ipynb   prueba1.py       RXPie.jpg
+ Evaluacion_U2_Jaramillo.py                        ImagenoMascara.ipynb                   MedicionesImageno.ipynb          prueba.py        RXTorax.jpeg
+ examen.txt                                        imagenoop                              operaciones                      registro         RXTorax.jpg
+'Filtrado y Manipulacion de Imagen Medica.ipynb'   imagenooperaciones                     opexamen                         RXMANO.ipynb     sunnybrook-cardiac-mr.zip
+ FOV3imagenes.ipynb                                imageno.py                             pracimageno.py                   RxMano.jpeg      tcia-chest-ct-sample.zip
+ imagenE2.dcm                                      imaopcomp                              PracticaImageno.ipynb            RXNeonato.jpeg
+ imagenes_ct                                       mainex.py                              principal.py                     RXPie.ipynb
+
+es la imagenE2.dcm
+
+2. Evaluación individual (40 puntos)
+2.1 Carga y visualización inicial (3 puntos)
+• Cargar la imagen médica.
+• Mostrar su forma, su tipo de dato y metadatos.
+• Visualizarla correctamente en escala de grises.
+• Pregunta: ¿Qué representa cada elemento del arreglo (valor de píxel) en tu
+imagen?
+2.2 Análisis de intensidades (6 puntos)
+• Calcular y graficar el histograma de intensidades.
+• Aplicar ecualización de histograma y visualizar la imagen resultante.
+• Explica:
+– ¿Cómo cambió el contraste entre imagen original y ecualizada?
+– ¿Qué estructuras anatómicas se ven más definidas después del proceso?
+2
+Evaluación Elemento de Competencia 2
+2.3 Creación y ajuste de máscara (7 puntos)
+• Generar una máscara binaria para resaltar una estructura observable.
+• Ajustar la máscara usando dilatación o cierre morfológico.
+• Visualizar máscara original y máscara ajustada una al lado de la otra.
+• Explica:
+– ¿Qué problema solucionaste al aplicar la operación morfológica? (ruido,
+agujeros, bordes débiles, etc.)
+2.4 Filtrado de la imagen (6 puntos)
+• Aplicar un filtro de suavizado (gaussiano o media).
+• Aplicar un filtro de realce (sharpening o Sobel).
+• Comparar las imágenes en una cuadrícula de 3 o 4 paneles.
+• Explica:
+– ¿Qué filtro resulta más útil para observar estructuras anatómicas en tu
+imagen y por qué?
+2.5 Detección de bordes, segmentación y extracción de objetos (12 puntos)
+• Aplicar detectores de bordes
+• Crear una máscara final de segmentación de la estructura de interés.
+• Extraer un objeto segmentado.
+• Explica:
+– ¿Qué método de detección de bordes dio el mejor resultado? ¿Por qué?
+– ¿Cómo se relaciona la máscara segmentada con la estructura anatómica
+real?
+no chat no tengo que cargar un volumen grande de imagenes solo una puta imagen_es la imagenE2.dcm esta tienes que ver de hacer todo esto en los .py que te dije, haz todo denuevo, leelo y que este bien hecho, no chat mierda solo haz esto: chat quiero que me des el codigo modularizado de estos archivos haciiendo las siguientes ordenes para hacer todo esto, tengo un documento que se llama: Evaluacion_U2_Jaramillo.py,una carpeta llamada: opexamen, y tiene diferentes documentos como: bordes.py  carga.py  filtros.py  histogramas.py  __init__.py  mascaras.py,Data   , esta es la orden nc que mierda haces:1 Carga y visualización inicial (3 puntos)
+• Cargar la imagen médica.
+• Mostrar su forma, su tipo de dato y metadatos.
+• Visualizarla correctamente en escala de grises.
+• Pregunta: ¿Qué representa cada elemento del arreglo (valor de píxel) en tu
+imagen?
+2.2 Análisis de intensidades (6 puntos)
+• Calcular y graficar el histograma de intensidades.
+• Aplicar ecualización de histograma y visualizar la imagen resultante.
+• Explica:
+– ¿Cómo cambió el contraste entre imagen original y ecualizada?
+– ¿Qué estructuras anatómicas se ven más definidas después del proceso?
+2
+Evaluación Elemento de Competencia 2
+2.3 Creación y ajuste de máscara (7 puntos)
+• Generar una máscara binaria para resaltar una estructura observable.
+• Ajustar la máscara usando dilatación o cierre morfológico.
+• Visualizar máscara original y máscara ajustada una al lado de la otra.
+• Explica:
+– ¿Qué problema solucionaste al aplicar la operación morfológica? (ruido,
+agujeros, bordes débiles, etc.)
+2.4 Filtrado de la imagen (6 puntos)
+• Aplicar un filtro de suavizado (gaussiano o media).
+• Aplicar un filtro de realce (sharpening o Sobel).
+• Comparar las imágenes en una cuadrícula de 3 o 4 paneles.
+• Explica:
+– ¿Qué filtro resulta más útil para observar estructuras anatómicas en tu
+imagen y por qué?
+2.5 Detección de bordes, segmentación y extracción de objetos (12 puntos)
+• Aplicar detectores de bordes
+• Crear una máscara final de segmentación de la estructura de interés.
+• Extraer un objeto segmentado.
+• Explica:
+– ¿Qué método de detección de bordes dio el mejor resultado? ¿Por qué?
+– ¿Cómo se relaciona la máscara segmentada con la estructura anatómica
+real?       
